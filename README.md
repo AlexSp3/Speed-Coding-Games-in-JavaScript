@@ -1,2 +1,2 @@
 # Speed-Coding-Games-in-JavaScript
-Repository from 
+Games Repository from Speed Coding channel
