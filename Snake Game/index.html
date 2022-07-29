@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="resources/logo.ico">
+    <title>Snake Game!</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="left-div">
+            <img src="resources/logo.png" id="logo">
+            <hr>
+
+            <div id="score-div">
+                <label> Score: </label>
+                <label id="score"></label>
+            </div>
+        </div>
+
+        <div id="game-container">
+            <canvas id="game-canvas"></canvas>
+        </div>
+
+
+        <audio controls autoplay id="theme-audio">
+            <source src="resources/theme.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
